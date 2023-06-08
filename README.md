@@ -10,7 +10,7 @@ Génération de caractéristiques : Les caractéristiques du personnage, telles 
 Calcul des bonus et malus de race : Les caractéristiques sont ajustées en fonction de la race choisie, fournissant des bonus et des malus spécifiques à chaque race.
 Affichage des informations du personnage : Une fois la fiche de personnage générée, les joueurs peuvent consulter les détails de leur personnage, y compris les caractéristiques, les points de vie, les attaques de mêlée et à distance, la défense, etc.
 Comment utiliser
-Clonez le dépôt GitHub : git clone https://github.com/votre-utilisateur/generateur-fiches-personnage-orbis-naturae.git
+Clonez le dépôt GitHub : git clone 
 Naviguez vers le répertoire du projet : cd generateur-fiches-personnage-orbis-naturae
 Compilez le code source : javac -d bin -sourcepath src src/Java/Main.java
 Exécutez l'application : java -classpath bin Java.classes.Main
