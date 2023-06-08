@@ -4,8 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93cbf4a0-c4e3-478b-ba71-e18bd06f1722" name="Changes" comment="V1 du logiciel">
+    <list default="true" id="93cbf4a0-c4e3-478b-ba71-e18bd06f1722" name="Changes" comment="V2 du logiciel">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Petites souris.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Petites souris.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java/classes/Character.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java/ICharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java/interfaces/ICharacter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java/IProfils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java/interfaces/IProfils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java/IRaces.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java/interfaces/IRaces.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java/Profils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java/models/profils/Profils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java/Races.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java/models/races/Races.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,11 +25,25 @@
       <list>
         <option value="Class" />
         <option value="Interface" />
+        <option value="package-info" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="a6f4555a-719b-4902-b0cb-ffc9f6318caf" />
+        <option name="url" value="https://github.com/Mschapxb/PetitesSourisCaracterGeneration.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -32,20 +54,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/chape/Documents/Petites souris/src/Main.java&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/chape/Documents/Petites souris/src",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "onboarding.tips.debug.path": "C:/Users/chape/Documents/Petites souris/src/Main.java",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\chape\Documents\Petites souris\src" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java.classes.Main" />
+      <module name="Petites souris" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java.interfaces.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -56,6 +102,9 @@
       <updated>1685731750548</updated>
       <workItem from="1685731751552" duration="2088000" />
       <workItem from="1685780719381" duration="2418000" />
+      <workItem from="1685816325942" duration="400000" />
+      <workItem from="1685950661775" duration="745000" />
+      <workItem from="1686243375524" duration="987000" />
     </task>
     <task id="LOCAL-00001" summary="V1 du logiciel">
       <created>1685733428291</created>
@@ -64,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685733428291</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="V2 du logiciel">
+      <created>1685816710124</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1685816710124</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -83,6 +139,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="V1 du logiciel" />
-    <option name="LAST_COMMIT_MESSAGE" value="V1 du logiciel" />
+    <MESSAGE value="V2 du logiciel" />
+    <option name="LAST_COMMIT_MESSAGE" value="V2 du logiciel" />
   </component>
 </project>

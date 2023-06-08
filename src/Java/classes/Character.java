@@ -1,4 +1,12 @@
-package Java;
+package Java.classes;
+
+import Java.interfaces.ICharacter;
+import Java.interfaces.IProfils;
+import Java.interfaces.IRaces;
+import Java.models.races.Races;
+import Java.models.profils.Profils;
+import Java.utils.DiceRoller;
+
 
 public class Character implements ICharacter {
     private String name;
@@ -80,4 +88,3 @@ public class Character implements ICharacter {
         return 1;
     }
 }
-

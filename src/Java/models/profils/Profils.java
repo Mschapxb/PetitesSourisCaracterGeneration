@@ -1,4 +1,6 @@
-package Java;
+package Java.models.profils;
+
+import Java.interfaces.IProfils;
 
 public class Profils {
     public static class Voyageur implements IProfils {

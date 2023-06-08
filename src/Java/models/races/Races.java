@@ -1,4 +1,7 @@
-package Java;
+package Java.models.races;
+
+import Java.interfaces.IRaces;
+
 public class Races {
 
 

@@ -13,5 +13,5 @@ Comment utiliser
 Clonez le dépôt GitHub : git clone https://github.com/votre-utilisateur/generateur-fiches-personnage-orbis-naturae.git
 Naviguez vers le répertoire du projet : cd generateur-fiches-personnage-orbis-naturae
 Compilez le code source : javac -d bin -sourcepath src src/Java/Main.java
-Exécutez l'application : java -classpath bin Java.Main
+Exécutez l'application : java -classpath bin Java.classes.Main
 Suivez les instructions à l'écran pour créer un nouveau personnage et afficher sa fiche.

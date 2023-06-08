@@ -1,4 +1,4 @@
-package Java;
+package Java.interfaces;
 
 public interface ICharacter {
     String getName();

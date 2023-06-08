@@ -1,13 +1,17 @@
-package Java;
+package Java.classes;
 
-import java.util.Random;
+import Java.interfaces.ICharacter;
+import Java.interfaces.IProfils;
+import Java.interfaces.IRaces;
+import Java.models.profils.Profils;
+import Java.models.races.Races;
+import Java.utils.DiceRoller;
+
+import java.util.Scanner;
 
 public class Main {
-    private static final int NUMBER_OF_DICE = 3;
-    private static final int NUMBER_OF_SIDES = 6;
-
     public static void main(String[] args) {
-        java.util.Scanner scanner = new java.util.Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
 
         System.out.println("Enter character name:");
         String name = scanner.nextLine();
@@ -58,14 +62,9 @@ public class Main {
 
     private static int[] rollCharacteristics() {
         int[] characteristics = new int[6];
-        Random random = new Random();
 
         for (int i = 0; i < 6; i++) {
-            int total = 0;
-            for (int j = 0; j < NUMBER_OF_DICE; j++) {
-                total += random.nextInt(NUMBER_OF_SIDES) + 1;
-            }
-            characteristics[i] = total;
+            characteristics[i] = DiceRoller.rollDice();
         }
 
         return characteristics;
