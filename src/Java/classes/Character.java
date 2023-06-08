@@ -1,12 +1,9 @@
 package Java.classes;
 
 import Java.interfaces.ICharacter;
+import Java.interfaces.ICharacteristics;
 import Java.interfaces.IProfils;
 import Java.interfaces.IRaces;
-import Java.models.races.Races;
-import Java.models.profils.Profils;
-import Java.utils.DiceRoller;
-
 
 public class Character implements ICharacter {
     private String name;
@@ -27,63 +24,62 @@ public class Character implements ICharacter {
         return this.name;
     }
 
-    @Override
     public int getCharacteristic(String characteristicName) {
+        int characteristicIndex = getCharacteristicIndex(characteristicName);
+        if (characteristicIndex != -1) {
+            return characteristics[characteristicIndex] + raceModifiers[characteristicIndex];
+        }
+        return 0;
+    }
+
+    public int getCharacteristicModifier(String characteristicName) {
+        int characteristicValue = getCharacteristic(characteristicName);
+        return characteristicValue / 2 - 5;
+    }
+
+    private int getCharacteristicIndex(String characteristicName) {
         switch (characteristicName) {
             case "Strength":
-                return characteristics[0] + raceModifiers[0];
-            case "Dexterity":
-                return characteristics[1] + raceModifiers[1];
-            case "Constitution":
-                return characteristics[2] + raceModifiers[2];
-            case "Intelligence":
-                return characteristics[3] + raceModifiers[3];
-            case "Wisdom":
-                return characteristics[4] + raceModifiers[4];
-            case "Charisma":
-                return characteristics[5] + raceModifiers[5];
-            default:
                 return 0;
+            case "Dexterity":
+                return 1;
+            case "Constitution":
+                return 2;
+            case "Intelligence":
+                return 3;
+            case "Wisdom":
+                return 4;
+            case "Charisma":
+                return 5;
+            default:
+                return -1;
         }
     }
 
-    @Override
-    public int getCharacteristicModifier(String characteristicName) {
-        int characteristicValue = getCharacteristic(characteristicName);
-        return (characteristicValue / 2) - 5;
-    }
-
-    @Override
     public int getLifePoint() {
         return profil.getLifePointsPerLevel();
     }
 
-    @Override
     public int getMeleeAttack() {
         return getCharacteristicModifier("Strength") + 1;
     }
 
-    @Override
     public int getRangedAttack() {
         return getCharacteristicModifier("Dexterity") + 1;
     }
 
-    @Override
     public int getDefense() {
         return 10 + getCharacteristicModifier("Dexterity");
     }
 
-    @Override
     public IRaces getRace() {
         return this.race;
     }
 
-    @Override
     public IProfils getProfil() {
         return this.profil;
     }
 
-    @Override
     public int getLevel() {
         return 1;
     }

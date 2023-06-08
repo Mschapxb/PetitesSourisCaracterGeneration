@@ -4,16 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93cbf4a0-c4e3-478b-ba71-e18bd06f1722" name="Changes" comment="V2 du logiciel">
+    <list default="true" id="93cbf4a0-c4e3-478b-ba71-e18bd06f1722" name="Changes" comment="Refactorisation partiel du code">
+      <change afterPath="$PROJECT_DIR$/src/Java/interfaces/ICharacteristics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java/models/Charisma.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java/models/Constitution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java/models/Dexterity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java/models/Intelligence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java/models/Strength.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java/models/Wisdom.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Petites souris.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Petites souris.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java/classes/Character.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java/ICharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java/interfaces/ICharacter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java/IProfils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java/interfaces/IProfils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java/IRaces.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java/interfaces/IRaces.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java/Profils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java/models/profils/Profils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java/Races.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java/models/races/Races.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java/classes/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java/classes/Character.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,9 +23,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
-        <option value="Interface" />
         <option value="package-info" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -76,6 +76,9 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Java.models" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
@@ -104,7 +107,7 @@
       <workItem from="1685780719381" duration="2418000" />
       <workItem from="1685816325942" duration="400000" />
       <workItem from="1685950661775" duration="745000" />
-      <workItem from="1686243375524" duration="987000" />
+      <workItem from="1686243375524" duration="3579000" />
     </task>
     <task id="LOCAL-00001" summary="V1 du logiciel">
       <created>1685733428291</created>
@@ -120,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685816710124</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Refactorisation partiel du code">
+      <created>1686244631608</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1686244631608</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,6 +150,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="V1 du logiciel" />
     <MESSAGE value="V2 du logiciel" />
-    <option name="LAST_COMMIT_MESSAGE" value="V2 du logiciel" />
+    <MESSAGE value="Refactorisation partiel du code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactorisation partiel du code" />
   </component>
 </project>
